@@ -1,22 +1,34 @@
-# Retail Sales Data Profiling & Cleaning
+# Public Health Data Profiling & Cleaning
 
 ## Project Overview
 
-This project focused on profiling, assessing, and cleaning a retail sales dataset in preparation for downstream analytics and business intelligence workflows.
+This project focused on profiling, assessing, and cleaning a demographic/public health dataset containing mortality data segmented by state, year, month, and age group.
 
 The workflow explored:
-- raw data assessment
-- data integrity validation
 - missing values
 - duplicate detection
 - structural inconsistencies
+- categorical validation
+- data integrity assessment
 - cleaned dataset verification
 
-The project was completed using Excel as part of a broader data analytics and business intelligence workflow.
+The project was completed in Excel as part of a broader data analytics and business intelligence workflow.
 
 ---
 
-## Project Structure
+## Dataset Fields
+
+The dataset included:
+- State
+- State Code
+- Year
+- Month
+- Ten-Year Age Groups
+- Death Counts
+
+---
+
+## Project Workflow
 
 ### Raw Data
 Initial unprocessed dataset used for exploratory profiling and integrity analysis.
@@ -24,26 +36,22 @@ Initial unprocessed dataset used for exploratory profiling and integrity analysi
 ### Data Profile of Raw Data
 Assessment of:
 - missing values
-- null fields
-- duplicate records
+- duplicates
+- distributions
 - column consistency
-- data types
-- categorical distributions
+- data completeness
 
 ### Data Integrity of Raw Data
-Evaluation of structural reliability and consistency across records prior to cleaning.
+Evaluation of structural consistency prior to cleaning.
 
 ### Cleaned Data
 Refined dataset following cleaning and standardization processes.
 
 ### Data Profile of Cleaned Data
-Post-cleaning validation to assess improvements in:
-- completeness
-- consistency
-- analytical readiness
+Post-cleaning validation to assess analytical readiness.
 
 ### Data Integrity of Cleaned Data
-Final integrity review confirming the dataset was suitable for downstream analysis and visualization.
+Final integrity checks confirming the dataset was suitable for downstream analysis and visualization.
 
 ---
 
@@ -51,18 +59,6 @@ Final integrity review confirming the dataset was suitable for downstream analys
 
 - Excel
 - Pivot Tables
-- Data Cleaning Techniques
 - Data Profiling
+- Data Cleaning
 - Data Integrity Assessment
-
----
-
-## Key Learning Outcomes
-
-This project reinforced the importance of:
-- data quality assessment
-- structured cleaning workflows
-- integrity validation
-- preparing reliable datasets for analytics and visualization
-
-It also highlighted how data preparation is a foundational stage in business intelligence and reporting workflows.
